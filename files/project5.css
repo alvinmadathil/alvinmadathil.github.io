@@ -1,0 +1,82 @@
+/* Apply a gradient background with royal blue theme */
+html {
+    background-image: linear-gradient(to bottom, white 0%, #4169E1 100%); /* Royal Blue */
+}
+
+/* Styling for the body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 1000px;
+    background-color: white;
+    margin: 15px auto;
+    padding: 15px 1.5em;
+    border: 1px solid #4169E1; /* Royal Blue border */
+    border-radius: 25px;
+    box-shadow: 5px 5px 0 0 rgba(0, 0, 139, 0.5); /* Adjust shadow */
+    background-position: right;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+}
+
+/* Hover and focus effect for links */
+a:focus, a:hover {
+    font-style: italic;
+    color: orangered;
+}
+
+/* Header styling */
+header h1 {
+    font-size: 175%;
+    color: #4169E1; /* Royal Blue */
+    text-indent: 30px;
+}
+
+header h2 {
+    font-size: 130%; 
+    color: #4169E1; /* Royal Blue */
+    text-indent: 30px;
+}
+
+/* Image in header */
+header img {
+    float: left;
+}
+
+/* Text shadow for header */
+.shadow {
+    text-shadow: 2px 2px 2px rgba(0, 0, 139, 0.5); /* Dark Blue shadow */
+}
+article {
+    clear: left;
+    width: 70%
+    float: left;
+    column-count: 3;
+    column-rule: 2px dotted maroon;
+    column-gap: 2em;
+    margin-left: 2em;
+}
+article h3 {
+    column-span: all;
+}
+article img {
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+article p: :first-letter {
+    font-size: 3em; 
+    font-weight: bold;
+    font-style: italic;
+    color: lightgreen;
+}
+aside {
+    width: 20%;
+    float: right;
+    background-color: #ffebc6;
+
+}
+footer {
+    clear: both;
+    border-top: 2px solid maroon;
+}
