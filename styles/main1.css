@@ -1,53 +1,73 @@
+/* Apply a gradient background with royal blue theme */
 html {
-    background-image: linear-gradient(to bottom, white 0%, blue 40%);
+    background-image: linear-gradient(to bottom, white 0%, #4169E1 100%); /* Royal Blue */
 }
+
+/* Styling for the body */
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
     width: 1000px;
-    background-color: white
+    background-color: white;
     margin: 15px auto;
     padding: 15px 1.5em;
-    border: 1px solidcolor rgb(196, 104, 184);
+    border: 1px solid rgb(196, 104, 184); /* You can adjust the border color here */
     border-radius: 25px;
     box-shadow: 5px 5px 0 0;
-    background-image: 
-    background-position: :right;
+    background-position: right;
     background-repeat: repeat-y;
     background-attachment: fixed;
-    margin-left: 10px;
 }
+
+/* Hover and focus effect for links */
 a:focus, a:hover {
     font-style: italic;
-    color:orangered;
+    color: orangered;
 }
+
+/* Header styling */
 header h1 {
     font-size: 175%;
     color: maroon;
     text-indent: 30px;
 }
+
 header h2 {
     font-size: 130%; 
-    color: #800000;
+    color: #800000; /* Maroon */
     text-indent: 30px;
 }
+
+/* Image in header */
 header img {
     float: left;
 }
+
+/* Text shadow for header */
 .shadow {
-    text-shadow: 2px 2px 2px rgb(128, 0, 0);
+    text-shadow: 2px 2px 2px rgb(128, 0, 0); /* Dark red shadow */
 }
+
+/* Clear float for main content */
 main {
     clear: left;
 }
+
+/* Main content heading styling */
 main h3 {
     margin-top: 3em;
     font-size: 105%;
+    color: #4169E1; /* Royal Blue */
 }
+
+/* List styling */
 #list {
     line-height: 1.5em;
 }
+
+/* Footer styling */
 footer p.copyright {
     text-align: center;
     font-size: 80%;
+    color: #4169E1; /* Royal Blue */
 }
