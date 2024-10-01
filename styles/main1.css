@@ -11,7 +11,7 @@ body {
     background-color: white;
     margin: 15px auto;
     padding: 15px 1.5em;
-    border: 1px solid rgb(196, 104, 184); /* You can adjust the border color here */
+    border: 1px solid rgb(196, 104, 184); /* Border color */
     border-radius: 25px;
     box-shadow: 5px 5px 0 0;
     background-position: right;
@@ -71,3 +71,4 @@ footer p.copyright {
     font-size: 80%;
     color: #4169E1; /* Royal Blue */
 }
+
