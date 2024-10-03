@@ -1,0 +1,81 @@
+html {
+    background-image: linear-gradient(to bottom, #ffffff 0%, #e3e3e3 100%);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 90%;
+    background-color: white;
+    margin: 15px auto;
+    padding: 15px 1.5em;
+    border: 1px solid #b3b3b3;
+    border-radius: 25px;
+    box-shadow: 5px 5px 0 0;
+    background-image: url("../images/f8.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+a:focus, a:hover {
+    font-style: italic;
+    color: #ff5757; /* Red accent for hover links */
+}
+
+header h1 {
+    font-size: 175%;
+    color: #b3b3b3;
+    text-indent: 30px;
+}
+
+header h2 {
+    font-size: 130%;
+    color: #ff4747; /* Red Ferrari accent */
+    text-indent: 30px;
+}
+
+header img {
+    float: left;
+    margin-left: 2em;
+}
+
+.shadow {
+    text-shadow: 2px 2px 2px #a6a6a6;
+}
+
+main h3 {
+    margin: 3em 2em 1.5em;
+    padding: 1em;
+    border: 5px double #b3b3b3;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px #999999;
+    font-size: 105%;
+}
+
+main nav {
+    margin: 1.5em 2em 1.5em;
+    padding: 0.5em;
+    border: 5px dashed #b3b3b3;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px #999999;
+    font-size: 105%; 
+}
+
+main div {
+    margin: 1.5em 2em 0em;
+    padding: 1em;
+    border: 5px dotted #b3b3b3;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px #999999;
+    font-size: 105%;
+}
+
+#list {
+    line-height: 1.5em;
+}
+
+footer p.copyright {
+    text-align: center;
+    font-size: 80%;
+}
