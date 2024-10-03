@@ -1,5 +1,5 @@
 html {
-    background-image: linear-gradient(to bottom, #ffffff 0%, #e3e3e3 100%);
+    background-image: linear-gradient(to left, #ffffff 0%, #e3e3e3 100%);
 }
 
 body {
@@ -20,7 +20,9 @@ body {
 
 a:focus, a:hover {
     font-style: italic;
-    color: #ff5757; /* Red accent for hover links */
+    color: #ff5757;
+    border: 3px blue;
+    border-style: dotted solid;
 }
 
 header h1 {
@@ -31,7 +33,7 @@ header h1 {
 
 header h2 {
     font-size: 130%;
-    color: #ff4747; /* Red Ferrari accent */
+    color: #ff4747;
     text-indent: 30px;
 }
 
@@ -59,7 +61,7 @@ main nav {
     border: 5px dashed #b3b3b3;
     border-radius: 20px;
     box-shadow: 3px 3px 4px 4px #999999;
-    font-size: 105%; 
+    font-size: 105%;
 }
 
 main div {
