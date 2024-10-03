@@ -31,7 +31,6 @@ header h2 {
     text-indent: 30px;
 }
 
-
 header img {
     float: left;
 }
@@ -40,7 +39,7 @@ header img {
 }
 article {
     clear: left;
-    width: 70%
+    width: 70%;
     float: left;
     column-count: 2;
     column-rule: 2px dotted maroon;
@@ -55,7 +54,7 @@ article img {
     margin-right: 1em;
     margin-bottom: 1em;
 }
-article p: :first-letter {
+article p::first-letter {
     font-size: 3em; 
     font-weight: bold;
     font-style: italic;
@@ -65,7 +64,7 @@ aside {
     width: 20%;
     float: right;
     background-color: #ffebc6;
-
+    padding: 1em;
 }
 footer {
     clear: both;
