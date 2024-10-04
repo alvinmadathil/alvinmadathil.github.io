@@ -1,72 +1,31 @@
-html {
-    background-image: linear-gradient(to bottom, white 0%, #4169E1 100%); 
-}
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 100%;
-    width: 90%;
-    background-color: white;
-    margin: 15px auto;
-    padding: 15px 1.5em;
-    border: 1px solid #4169E1; 
-    border-radius: 25px;
-    box-shadow: 5px 5px 0 0 rgba(0, 0, 139, 0.5); 
-}
-
-a:focus, a:hover {
-    font-style: italic;
-    color: orangered;
-    border: 3px black;
-    border-style: dotted solid;
-}
-header h1 {
-    font-size: 175%;
-    color: #4169E1; 
-    text-indent: 30px;
-}
-
-header h2 {
-    font-size: 130%; 
-    color: #4169E1; 
-    text-indent: 30px;
-}
-
-header img {
-    float: left;
-}
-.shadow {
-    text-shadow: 2px 2px 2px rgba(0, 0, 139, 0.5); 
-}
-article {
-    clear: left;
-    width: 70%;
-    float: left;
-    column-count: 2;
-    column-rule: 2px dotted maroon;
-    column-gap: 2em;
-    margin-left: 2em;
-}
-article h3 {
-    column-span: all;
-}
-article img {
-    float: left;
-    margin-right: 1em;
-    margin-bottom: 1em;
-}
-article p::first-letter {
-    font-size: 3em; 
-    font-weight: bold;
-    font-style: italic;
-    color: lightgreen;
-}
-aside {
-    width: 20%;
-    float: right;
-    background-color: #ffebc6;
-    padding: 1em;
-}
-footer {
-    clear: both;
-    border-top: 2px solid maroon;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kamphol Wipawayangkool's personal website">
+    <meta name="keywords" content="kamphol, wipawayangkool, shsu, mis, professor">
+    <title>Kamphol Wipawayangkool | Project</title>
+    <link rel="stylesheet" href="styles/projects.css">
+</head>
+<body>
+    <header>
+        <img src="images/kamphol.png" alt="Kamphol's image" height="100">
+        <h1 class="shadow">Welcome to my website!</h1>
+        <h2 class="shadow">kwipaway.github.io</h2>
+    </header>
+    <article>
+        <h3>MGIS 3320: Web Development Project</h3>
+        <img src="images/jupiter.jpg" alt="Jupiter's image" width="160">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti quas itaque corporis
+           ad.</p>
+    </article>
+    <aside>
+        <h4>References</h4>
+        <ul>
+            <li><a href="https://www.w3schools.com/">W3Schools</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Learn">Mozilla</a></li>
+        </ul>
+    </aside>
+</body>
+</html>
