@@ -1,17 +1,17 @@
 html {
-    background-image: linear-gradient(to bottom, white 0%, #dfe9f3 100%);
+    background-image: linear-gradient(to bottom, white 0%, #facd8a 100%);
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
     width: 1000px;
-    background-color: #ffffff;
+    background-color: white;
     margin: 15px auto;
     padding: 15px 1.5em;
-    border: 1px solid #3b5998; /* Royal Blue Border */
+    border: 1px solid black;
     border-radius: 25px;
-    box-shadow: 5px 5px 0 0 #cccccc;
+    box-shadow: 5px 5px 0 0;
     background-image: url("../images/background.png");
     background-position: right;
     background-repeat: repeat-y;
@@ -20,38 +20,33 @@ body {
 
 h3 {
     margin: 3em 2em 1.5em;
-    border: 5px double #3b5998; /* Royal Blue Border */
+    border: 5px double blue;
     border-radius: 20px;
-    box-shadow: 3px 3px 4px 4px #7aa0d4; /* Light Blue Shadow */
+    box-shadow: 3px 3px 4px 4px red;
     padding: 1em;
-    background-color: #f2f6fc; /* Light Blue Background */
 }
 
 nav {
     margin: 1.5em 2em 1.5em;
-    border: 5px dashed #3b5998; /* Royal Blue Border */
+    border: 5px dashed blue;
     border-radius: 20px;
-    box-shadow: 3px 3px 4px 4px #7aa0d4; /* Light Blue Shadow */
+    box-shadow: 3px 3px 4px 4px red;
     padding: 0.5em;
-    background-color: #f2f6fc; /* Light Blue Background */
 }
 
 .contact {
     margin: 1.5em 2em 0 2em;
-    border: 5px dotted #3b5998; /* Royal Blue Border */
+    border: 5px dotted blue;
     border-radius: 20px;
-    box-shadow: 3px 3px 4px 4px #7aa0d4; /* Light Blue Shadow */
+    box-shadow: 3px 3px 4px 4px red;
     padding: 1em;
-    background-color: #f2f6fc; /* Light Blue Background */
 }
 
 #list {
     line-height: 1.5em;
-    color: #3b5998; /* Royal Blue for text */
 }
 
 footer p.copyright {
     text-align: center;
     font-size: 80%;
-    color: #3b5998; /* Royal Blue Text */
 }
