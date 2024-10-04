@@ -1,57 +1,38 @@
-/* Body Styling */
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
     margin-left: 10px;
 }
-
-/* Focus and Hover Styling for Links */
 a:focus, a:hover {
     font-style: italic;
-    color: orangered;
+    color:orangered;
 }
-
-/* Header Styling */
 header h1 {
     font-size: 175%;
     color: maroon;
     text-indent: 30px;
 }
-
 header h2 {
-    font-size: 130%;
+    font-size: 130%; 
     color: #800000;
     text-indent: 30px;
 }
-
-/* Float Image */
-.float-image {
+header img {
     float: left;
-    margin-right: 20px; /* Adjust for spacing */
 }
-
-/* Stop Floating for Main Content */
-main {
-    clear: left;
-}
-
-/* Shadow Class for Text Shadow */
 .shadow {
     text-shadow: 2px 2px 2px rgb(128, 0, 0);
 }
-
-/* Main H3 Styling */
+main {
+    clear: left;
+}
 main h3 {
     margin-top: 3em;
     font-size: 105%;
 }
-
-/* List Styling */
 #list {
     line-height: 1.5em;
 }
-
-/* Footer Copyright Styling */
 footer p.copyright {
     text-align: center;
     font-size: 80%;
