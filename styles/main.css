@@ -1,6 +1,14 @@
 html {
     background-image: linear-gradient(to bottom, white 0%, #dfe9f3 100%);
 }
+header img {
+    float: left;
+    margin-right: 15px; /* Adds space between the image and the text */
+}
+
+header h1 {
+    margin-top: 0; /* Removes extra space above the heading */
+}
 
 body {
     font-family: Arial, Helvetica, sans-serif;
