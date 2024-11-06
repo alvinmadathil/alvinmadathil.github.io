@@ -1,5 +1,6 @@
 #nav_menu {
     padding-bottom: 1em;
+    border-top: 2px solid rgb(139, 0, 0); /* dark red line at the top */
 }
 
 #nav_menu ul {
