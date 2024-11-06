@@ -8,6 +8,9 @@ body {
     background-repeat: repeat-y;          /* Repeats the image vertically */
     background-attachment: fixed;         /* Keeps the background fixed during scrolling */
     border: 1px solid #3b5998;            /* Border around the body as required */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.2); /* Optional shadow for depth */
 }
 
 /* Styling for the navigation bar */
@@ -26,13 +29,24 @@ nav ul {
 
 nav a {
     text-decoration: none;                 /* Removes underline from links */
-    color: #333;                           /* Sets link color */
+    color: white;                          /* Sets link color */
+    font-weight: bold;                     /* Bold text */
+    background-color: #3b5998;             /* Background color for the links */
+    padding: 10px 15px;                    /* Adds padding around each link */
+    border-radius: 5px;                    /* Rounded corners for links */
+}
+
+nav a:hover {
+    background-color: #2a4d87;             /* Darker color on hover */
+    color: yellow;                         /* Hover color for text */
 }
 
 /* Styling for the article section */
 article {
     width: 75%;                            /* Sets article width */
     float: left;                           /* Aligns article to the left */
+    border-right: 2px solid #3b5998;       /* Additional line between article and aside */
+    padding-right: 10px;
 }
 
 article h2 {
@@ -61,8 +75,12 @@ aside {
 }
 
 aside ul {
-    list-style-type: circle;               /* Sets list style for sidebar */
+    list-style-type: upper-roman;          /* Upper Roman style for main list */
     padding-left: 20px;
+}
+
+aside ul li ul {
+    list-style-type: square;               /* Nested lists in square style */
 }
 
 /* Styling for the footer */
