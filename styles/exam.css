@@ -1,0 +1,75 @@
+/* Styling for the body */
+body {
+    font-family: Arial, sans-serif;       /* Sets the page font */
+    width: 95%;                           /* Page content width set to 95% of the viewport */
+    margin: 15px auto;                    /* Centers the content with top and bottom margin */
+    background-image: url('../images/Rocket.png'); /* Rocket image as the background */
+    background-position: right;           /* Aligns the background image to the right */
+    background-repeat: repeat-y;          /* Repeats the image vertically */
+    background-attachment: fixed;         /* Keeps the background fixed during scrolling */
+    border: 1px solid #3b5998;            /* Border around the body as required */
+}
+
+/* Styling for the navigation bar */
+nav {
+    margin: 1em 0;
+    padding: 10px;
+    border-bottom: 2px solid #3b5998;      /* Adds a line under the nav bar */
+    background-color: #f2f6fc;             /* Light background color */
+}
+
+nav ul {
+    list-style: none;                      /* Removes bullets from list items */
+    display: flex;                         /* Horizontally aligns menu items */
+    gap: 20px;                             /* Space between menu items */
+}
+
+nav a {
+    text-decoration: none;                 /* Removes underline from links */
+    color: #333;                           /* Sets link color */
+}
+
+/* Styling for the article section */
+article {
+    width: 75%;                            /* Sets article width */
+    float: left;                           /* Aligns article to the left */
+}
+
+article h2 {
+    margin-top: 1.5em;
+}
+
+article p::first-letter {
+    font-size: 2em;                        /* Enlarges the first letter */
+    font-weight: bold;                     /* Makes the first letter bold */
+    font-style: italic;                    /* Italicizes the first letter */
+}
+
+/* Styling for images within the article */
+article img {
+    margin: 10px;
+}
+
+/* Styling for the sidebar (aside) */
+aside {
+    width: 20%;                            /* Sets aside width */
+    float: right;                          /* Aligns aside to the right */
+    position: fixed;                       /* Keeps aside fixed on the page */
+    top: 100px;                            /* Positions it from the top */
+    background-color: #ffebc6;             /* Light yellow background for aside */
+    padding: 10px;
+}
+
+aside ul {
+    list-style-type: circle;               /* Sets list style for sidebar */
+    padding-left: 20px;
+}
+
+/* Styling for the footer */
+footer {
+    clear: both;                           /* Clears floats above footer */
+    border-top: 2px solid #3b5998;         /* Line above the footer */
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
