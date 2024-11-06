@@ -36,7 +36,7 @@ ol.lower-alpha {
 }
 
 #nav_menu ul li a.current {
-    color: #FFD700; /* gold */
+    color: white; /* changed to white for contrast */
 }
 
 header {
@@ -80,13 +80,13 @@ article p:first-letter {
     font-size: 3em;
     font-weight: bold;
     font-style: italic;
-    color: rgb(165, 42, 42); /* brownish red */
+    color: rgb(139, 0, 0); /* dark red */
 }
 
 aside {
     width: 20%;
     float: right;
-    background: rgb(255, 192, 203); /* pink */
+    background: rgb(255, 182, 193); /* light pink */
     padding-left: 10px;
     padding-bottom: 3px;
     border: 3px solid rgb(139, 0, 0); /* dark red */
@@ -102,10 +102,10 @@ body {
     background-color: white;
     margin: 15px auto;
     padding: 15px 1.5em;
-    border: 1px solid rgb(165, 42, 42); /* brownish red */
+    border: 1px solid rgb(139, 0, 0); /* dark red */
     border-radius: 25px;
     box-shadow: 5px 5px 0 0;
-    background-image: url('../images/flower.png');
+    background-image: url('../images/Rocket.png');
     background-repeat: repeat-y;
     background-attachment: fixed;
 }
@@ -118,8 +118,8 @@ header h1 {
 
 a:focus, a:hover {
     font-style: italic;
-    color: rgb(165, 42, 42); /* brownish red */
-    border: 3px solid rgb(165, 42, 42);
+    color: rgb(139, 0, 0); /* dark red */
+    border: 3px solid rgb(139, 0, 0);
     border-style: dotted solid;
 }
 
